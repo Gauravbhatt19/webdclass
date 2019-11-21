@@ -1,0 +1,60 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>HTML , CSS & JS  Page</title>
+	<style type="text/css">
+		body{
+			margin:0;
+			background-color: rgba(51,184,227,0.5	);
+		}
+		h1{
+			text-align: center;
+			background-color: rgba(10,10,10,1);
+			color: #fff;
+			padding: 20px;
+		}		
+		h2{
+			text-align: center;
+		}
+		input{
+			padding: 10px;
+			margin:10px;
+			border-radius: 10px;
+			text-align: center;
+			margin-left: 43%;
+		}		
+		input[type=button]{
+			padding: 10px 50px 10px 50px;
+			margin:10px;
+			margin-left: 46%;
+			border-radius: 2px;
+			color: rgba(0,0,150,1);
+			font-weight: bolder;
+			background-color: rgba(0,0,255,0.5);
+			border:0;
+			text-align: center;
+		}
+		input[type=button]:hover{
+			background-color: rgba(0,0,255,1);
+			color:#fff;
+		}
+	</style>
+	<script type="text/javascript">
+		function add() {
+			var x=document.getElementById('n1').value;
+			var y=document.getElementById('n2').value;
+			document.getElementById('sum').innerHTML="The Sum of "+parseInt(x)+" and "+parseInt(y)+" is "+(parseInt(x)+parseInt(y));
+		}
+	</script>
+</head>
+<body>
+	<h1>Addition Application</h1>
+	<input type="number" placeholder="Enter Number 1" id='n1'>
+	<br>
+	<input type="number" placeholder="Enter Number 2" id='n2'>
+	<br>
+	<input type="button" value="Add" onclick="add()">
+	<br>
+	<h2 id='sum'></h2>
+</body>
+</html>
