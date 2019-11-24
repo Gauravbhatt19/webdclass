@@ -1,0 +1,49 @@
+header{top:0;
+	left:0;
+	right:0;
+	position: fixed;
+	background-color:black;
+}
+
+.first{
+	text-align:center;
+	margin-top:80px;
+}
+
+body{
+	margin:0px;
+}
+a{
+	color: white;
+	text-decoration: none
+}
+header li{
+	color:white;
+	display: inline;
+	margin-left: 20px;
+
+}
+h1{
+	text-shadow:4px 5px 10px red;
+	border-bottom:4px black solid;
+}
+header li:hover{
+	color:yellow;
+}
+
+#second{
+	font-family:"Comic Sans MS";
+	padding:20px;
+	text-align: center;
+	background-color:green;
+}
+#second ol{
+	list-style-type: none;
+}
+footer{
+	text-align:center;
+	background-color: #000;
+	color:#fff;
+	padding: 20px;
+	font-weight: bolder;
+}
